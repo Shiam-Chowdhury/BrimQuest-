@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstback">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Bogra"
+        android:id="@+id/bogra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Sylhet"
+        android:id="@+id/sylhet"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/bogra"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Dhaka"
+        android:id="@+id/dhaka"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/sylhet"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Chittagong"
+        android:id="@+id/chittagong"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/dhaka"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Rajshahi"
+        android:id="@+id/rajshahi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/chittagong"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Khulna"
+        android:id="@+id/khulna"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/rajshahi"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Rangpur"
+        android:id="@+id/rangpur"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/khulna"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Joypurhat"
+        android:id="@+id/joypurhat"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/rangpur"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickCity"/>
+
+ </RelativeLayout>
+
+</ScrollView>
+
+
+

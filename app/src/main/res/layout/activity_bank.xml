@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Find Filling Station"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/fillingstation"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/forback"
+        android:textColor="#000080"
+        android:textSize="21sp"
+        android:onClick="findMarket"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Find Market"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/market"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/fillingstation"
+        android:layout_centerInParent="true"
+        android:background="@drawable/forback"
+        android:textColor="#000080"
+        android:textSize="21sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Find Hospital"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/hospital"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/market"
+        android:layout_centerInParent="true"
+        android:background="@drawable/forback"
+        android:textColor="#000080"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Find Mosque"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/mosque"
+        android:layout_marginLeft="100dp"
+        android:layout_above="@id/fillingstation"
+        android:layout_centerInParent="true"
+        android:background="@drawable/forback"
+        android:textColor="#000080"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Find Banks"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/banks"
+        android:layout_marginLeft="100dp"
+        android:layout_above="@id/mosque"
+        android:layout_centerInParent="true"
+        android:background="@drawable/forback"
+        android:textColor="#000080"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
+
+
+</ScrollView>

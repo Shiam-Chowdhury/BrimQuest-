@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrimQuest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_find_what">FindWhat</string>
+    <string name="title_activity_bank">BankActivity</string>
+    <string name="title_activity_about_app">AboutApp</string>
+
+</resources>

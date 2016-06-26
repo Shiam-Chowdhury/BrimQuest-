@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstback">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Select your City"
+        android:id="@+id/selectcity"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="selectYourCity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="About App"
+        android:id="@+id/aboutapp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/selectcity"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gray"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="clickAboutApp"/>
+</RelativeLayout>
